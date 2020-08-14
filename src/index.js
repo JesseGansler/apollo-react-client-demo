@@ -51,6 +51,7 @@ client
       <ApolloProvider client={client}>
         <div>
           <h2>My first Apollo app 🚀</h2>
+          <ExchangeRates />
         </div>
       </ApolloProvider>
     );
